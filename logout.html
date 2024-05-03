@@ -1,0 +1,8 @@
+<?php
+    session_start();
+    // Destroy session
+    if(session_destroy()) {
+        // Redirecting To Goggle
+        header("Location: https://www.google.co.in/");
+    }
+?> 
